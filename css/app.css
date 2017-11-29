@@ -1,6 +1,7 @@
 
 /**font family**/
 
+
 @font-face {font-family: "Montserrat_ExtraBold";
     src: url("../font/Montserrat-ExtraBold.eot");
     src: url("../font/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"),
@@ -112,7 +113,9 @@
 .search_bar :-ms-input-placeholder { color:#fff;}
 .search_bar :-moz-placeholder { color: #fff;}
 /**COMMON CSS LINES**/
-html{overflow-x: hidden; font-family: "Montserrat_regular";}
+html{overflow-x: hidden; font-family: "Montserrat_regular";
+background: black;
+}
 a{transition: background-color 300ms ease-out;}
 a{text-decoration: none ;outline: none ; color:white;}
 a:focus {text-decoration: none;outline: none; color:#F1D229;}
