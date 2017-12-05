@@ -1,3 +1,31 @@
+SECTION = {
+    bindSectionPropagation: function () {
+        //$( "#section,.banner,.social,.wrap_logo" ).click(function( event ) {
+           // event.stopPropagation();
+        //  });
+        $('body').click(function() {
+            $('#drop1,#drop2,#drop3').show();
+         });
+
+    },
+
+    bindSectionPropagationStop: function () {
+        $( "#section,.banner,.social" ).click(function( event ) {
+            event.stopPropagation();
+         });
+
+
+    },
+
+
+
+
+
+
+
+};
+
+
 GALLERY = {
     bindImageGallery: function () {
         $(document).ready(function() {
@@ -52,6 +80,8 @@ ANIMATION = {
 
 
 var onLoad = function () {
+    SECTION.bindSectionPropagation();
+    SECTION.bindSectionPropagationStop();
     GALLERY.bindImageGallery();
     ANIMATION.bindAnimation();
 };

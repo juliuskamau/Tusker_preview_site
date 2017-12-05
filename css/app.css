@@ -1,7 +1,4 @@
-
 /**font family**/
-
-
 @font-face {font-family: "Montserrat_ExtraBold";
     src: url("../font/Montserrat-ExtraBold.eot");
     src: url("../font/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"),
@@ -113,11 +110,9 @@
 .search_bar :-ms-input-placeholder { color:#fff;}
 .search_bar :-moz-placeholder { color: #fff;}
 /**COMMON CSS LINES**/
-html{overflow-x: hidden; font-family: "Montserrat_regular";
-background: black;
-}
+html{overflow-x: hidden; font-family: "Montserrat_regular";}
 a{transition: background-color 300ms ease-out;}
-a{text-decoration: none ;outline: none ; color:white;}
+a{text-decoration: none ;outline: none ; color:black;}
 a:focus {text-decoration: none;outline: none; color:#F1D229;}
 a:hover {text-decoration: none;outline: none; color:#F1D229;}
 .hide{display: none}
@@ -404,6 +399,21 @@ ul.social li > a {
    
 }
 
+
+
+.home_filter .f-dropdown.content{
+    
+    position: inherit !important;
+    background: none;
+    background-color: none;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    height: auto;
+   outline: none;
+   padding: 0px;
+   margin: 0px;
+}
 
 .navigation_wrap p{
     margin: 0px;
